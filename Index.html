@@ -1,0 +1,84 @@
+<html>
+
+<head>
+
+  <link href="Home.css" rel="stylesheet" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <title>Project</title>
+
+</head>
+
+<body>
+
+
+<div class="container">
+  <div class="intro">
+
+    <h1>Welcome to Cuyahoga Community College Student Services Online</h1>
+
+    <p>Cuyahoga Community College recognizes students' rights to access personal and academic records in accordance with the Family Educational Rights and Privacy Act of 1974 (FERPA) as amended by Public Law 93-568.</p>
+  </div>
+  <br/>
+
+  <div class="content">
+    <div class="row top">
+      <p id="para1">Already have an account with us? Returning users may log in by entering their site username and password. </p>
+      <div class="login">
+        <label class="username-label" for="existingUsername">Username</label> 
+         <input class="existingUsername" type="text" /><br><span id="username_error1"></span><br>
+
+
+        <label class="password-label" for="existingPassword">Password</label>
+        <input class="existingPassword" type="password"/><br><span id="password_error2"></span><br>
+        <button id="button1">Log in</button>
+      </div>
+    </div>
+    <hr/>
+    <div class="row bottom">
+      <p id="para2">New users, please create a new account by providing us with some basic information.</p>
+
+      <div class= "new_customers_info">
+
+        <label class="Username-label1" for="newUsername">Username</label>
+        <input class="newUsername" type="text"/>
+        <br><span id="New_Username_error"></span><br>
+
+        <label class="Password-label2" for="newPassword">Password</label>
+        <input class="newPassword" type="password"/>
+        <br><span id="New_Password_error"></span><br>
+
+        <label class="Email-label3" for="newEmail">Email Address</label>
+         <input class="newEmail" type="email"/>
+         <br><span id="New_Email_error"></span><br>
+
+        <label class="Repeat-Email-label4" for="repeatEmail">Repeat Email Address</label>
+         <input class="repeatEmail" type="email"/>
+         <span id="Repeat_Email_error"></span>
+
+        <button id="button2">Create Account</button>
+      </div>
+    </div>
+    <div class="content2">
+
+   <div id="LeftElementNames">
+   <label class="ElementOne"  for="accountName">AccountName</label>
+   <label class="ElementTwo"  for="accountEmail">EmailAddress</label>
+   <label class="ElementThird" for="accountGpa">CurrentGPA</label>
+   </div>
+   <div id="RightElementValues">
+    <input class="accountName"  type= "text"/><br>
+    <input class="accountEmail" type= "email"/><br>
+    <input class="accountName" type= "number"/><br>
+   </div>
+  </div>
+
+  </div>
+   
+   <br/>
+  <footer>Cuyahoga Community College</footer>
+  <footer>700 Carnegie Avenue, Cleveland, Ohio, 44115</footer>
+</div>
+    <script src="Home.js"></script>
+</body>
+</html>
+

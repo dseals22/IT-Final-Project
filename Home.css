@@ -1,0 +1,118 @@
+.intro h1 {
+  font-family: 'Cambria';
+  font-size: 16pt;
+  font: bold;
+  text-align: left;
+}
+
+.intro p {
+  font-family: 'Calibri';
+  font: italic;
+  font-size: 12pt;
+  padding: 0px 690px 0px 20px;
+  text-align: left;
+}
+
+.content {
+  border: 2px solid;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+}
+
+#para1 {
+  padding: 0px 1050px 0px 20px;
+  position: relative; 
+}
+
+#para2 {
+  padding: 0px 1099px 0px 20px;
+  position: relative; 
+}
+
+.username-label,
+.password-label {
+ margin: 10px 0px 0px 350px;
+ position: relative; 
+ top: -70px; 
+}
+
+.existingUsername, 
+.existingPassword, 
+#username_error1, 
+#password_error2
+{
+    top: -70px; 
+     position: relative;       
+}
+
+#button1{ 
+     background-color: #add8e6;
+     margin-left: 425px; 
+     position: relative; 
+     top: -70px; 
+    -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius:10px;
+  padding: 0px 20px 0px 20px; 
+}
+
+#button2{
+  background-color: #add8e6;
+  margin-left: -500px; 
+  position: relative; 
+  top: -10px; 
+ -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  padding: 0px 20px 0px 20px; 
+
+}
+
+
+.Username-label1, 
+.Password-label2,           
+.Email-label3, 
+.Repeat-Email-label4 
+{
+  margin: 0px 0px 0px 330px;
+  position: relative; 
+  top: -70px; 
+}
+.newUsername, 
+.newPassword, 
+.newEmail, 
+.repeatEmail{
+  position: relative;
+   top: -70px;
+  margin-left: 40px; 
+
+} 
+
+span{
+
+ color: red; 
+ margin-left: 300px;
+ position: relative; 
+ top: -70px; 
+}
+
+.content2{ 
+
+  display: none;
+  border-style: solid 3px;   
+  top: -400px; 
+  position: relative; 
+  margin-left: 100px; 
+ 
+
+} 
+#LeftElementNames{ 
+
+ text-align: left;
+} 
+
+#RightElementValues{
+     margin-left: 100px; 
+     top: 400px;  
+}
