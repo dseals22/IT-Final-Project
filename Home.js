@@ -114,3 +114,15 @@ if(errorsFound == 0) {
 }
  
 });
+
+var payload= { 
+    
+    
+    Account:"MichealAntonio",
+    Email:"S0104675@acad.tri-c.edu", 
+    GPA: 4.0
+}; 
+
+$(".accountName").val(payload.Account);
+$(".accountEmail").val(payload.Email);
+$(".accountGpa").val(payload.GPA);
