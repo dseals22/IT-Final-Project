@@ -100,19 +100,18 @@ span{
 .content2{ 
 
   display: none;
-  border-style: solid 3px;   
-  top: -400px; 
+  border: solid; 
+  border-width: 0.5px;  
+  top: -410px; 
   position: relative; 
-  margin-left: 100px; 
- 
+  margin-left: 20px; 
 
 } 
-#LeftElementNames{ 
 
- text-align: left;
-} 
+.accountName{ 
 
-#RightElementValues{
-     margin-left: 100px; 
-     top: 400px;  
+border: none; 
+
 }
+
+
